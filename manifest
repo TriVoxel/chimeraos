@@ -18,7 +18,9 @@ export PACKAGES="\
 	alsa-firmware \
 	alsa-utils \
 	amd-ucode \
+	bash-completion \
 	broadcom-wl-dkms \
+	bzip2 \
 	cifs-utils \
 	diffutils \
 	dkms \
@@ -30,7 +32,7 @@ export PACKAGES="\
 	ethtool \
 	evtest \
 	ffmpeg \
-	file-roller \
+	file \
 	firejail \
 	flatpak \
 	fmt \
@@ -46,8 +48,10 @@ export PACKAGES="\
 	gnome-session \
 	gnome-shell \
 	gnome-software \
+	gnome-system-monitor \
 	gnome-text-editor \
 	gst-plugin-pipewire \
+	gzip \
 	haveged \
 	htop \
 	intel-gpu-tools \
@@ -95,6 +99,7 @@ export PACKAGES="\
 	linux-firmware \
 	liquidctl \
 	logrotate \
+	lrzip \
 	lshw \
 	mesa-demos \
 	modemmanager \
@@ -106,6 +111,7 @@ export PACKAGES="\
 	nss-mdns \
 	openal \
 	openssh \
+	p7zip \
 	pipewire \
 	pipewire-alsa \
 	pipewire-jack \
@@ -121,7 +127,10 @@ export PACKAGES="\
 	sshfs \
 	steam \
 	sudo \
+	tar \
 	ttf-liberation \
+	unace \
+	unrar \
 	unzip \
 	usb_modeswitch \
 	usbutils \
@@ -138,6 +147,8 @@ export PACKAGES="\
 	xdg-user-dirs-gtk \
 	xf86-video-amdgpu \
 	xorg-server \
+	xz \
+	zip \
 "
 
 export PACKAGE_OVERRIDES="\
@@ -221,6 +232,7 @@ export SERVICES="\
 export USER_SERVICES="\
 	chimera.service \
 	gamemoded.service \
+	pipewire \
 	ryzen-tctl \
 	steam-patch.service \
 "
