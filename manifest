@@ -18,7 +18,6 @@ export PACKAGES="\
 	alsa-firmware \
 	alsa-utils \
 	amd-ucode \
-	avahi \
 	bash-completion \
 	broadcom-wl-dkms \
 	bzip2 \
@@ -123,7 +122,6 @@ export PACKAGES="\
 	python \
 	python-inotify-simple \
 	retroarch \
-	rocm-hip-runtime \
 	rsync \
 	samba \
 	smbclient \
