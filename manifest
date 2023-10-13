@@ -18,6 +18,7 @@ export PACKAGES="\
 	alsa-firmware \
 	alsa-utils \
 	amd-ucode \
+	avahi \
 	bash-completion \
 	broadcom-wl-dkms \
 	bzip2 \
@@ -27,8 +28,6 @@ export PACKAGES="\
 	distrobox \
 	dmidecode \
 	dosbox \
-	eog \
-	epiphany \
 	ethtool \
 	evtest \
 	ffmpeg \
@@ -51,6 +50,7 @@ export PACKAGES="\
 	gnome-software \
 	gnome-system-monitor \
 	gnome-text-editor \
+	gnome-tweaks \
 	gst-plugin-pipewire \
 	gzip \
 	haveged \
@@ -100,6 +100,7 @@ export PACKAGES="\
 	linux-firmware \
 	liquidctl \
 	logrotate \
+	loupe \
 	lrzip \
 	lshw \
 	mesa-demos \
@@ -122,7 +123,9 @@ export PACKAGES="\
 	python \
 	python-inotify-simple \
 	retroarch \
+	rocm-hip-runtime \
 	rsync \
+	samba \
 	smbclient \
 	sof-firmware \
 	sshfs \
@@ -233,7 +236,7 @@ export SERVICES="\
 export USER_SERVICES="\
 	chimera.service \
 	gamemoded.service \
-	pipewire \
+	pipewire.service \
 	ryzen-tctl \
 	steam-patch.service \
 "
